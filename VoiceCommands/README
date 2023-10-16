@@ -1,0 +1,35 @@
+- Project is made by using Swift, Xcode 13.4.1, MacOS 12.4
+
+- Project is tested and works as expected on iPhone Simulators and iPhone 11 (iOS 15.3.1). 
+
+- To add new command go to -> Configs/VoiceCommandsConfig.swift, and and new class for command with its command-String.
+
+- To support new language add new language in Configs/LanguageConfifg.swift. App Does not support multiple language at the moment.
+
+
+
+
+Some production ready features are missing as mentioned below:
+
+- Sometimes iOS ends the audio session randomly, which needs to be handled. Presently we are checking with timer and activate the session after 60 seconds.
+
+- App Does not support multiple language at the moment.
+
+- Project does not contain test cases.
+
+
+
+
+Run instructions:
+
+1. Install Xcode 13.4.1 or other nearby version to run the project on Mac.
+
+2. Go to project root directory and double click on VoiceCommands.xcodeproj file. It will open the project in Xcode.
+
+3 Now press run button top left corner or from Xcode top menu options,Go to -> Product -> Run. This will run the project and iPhone simulator will be launched with the app running on it. 
+
+4. Simulator will ask for some permissions to use microphone and speech recognition.
+
+5. Once the permissions are given by the user, app is ready to use. 
+
+
